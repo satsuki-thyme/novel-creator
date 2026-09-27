@@ -9,7 +9,7 @@
 1. `<git root>\index.md` を起点として、作品の設定、既存プロット、関連資料を把握する。
 2. 制作進行中の chapter を特定する。
 3. その chapter の物語の概略を、既存設定に基づいて創作・設定する。
-4. 完成した概略を `<git root>\plot\chapter-plot\plot-<chapter>.md` に入力する。
+4. 完成した概略を `<git root>\plot\chapter-plot\plot-overview-<chapter>.md` に入力する。
 5. プロット作成によって新しく確定した設定を、対応する既存の設定ファイルへ追記する。
 
 本文執筆、文章表現の推敲、既存設定の大規模な再設計は、ユーザーから別途依頼されない限り対象外とする。
@@ -70,14 +70,14 @@
    - 「始まりの状態」から「絶望する状況」が自然に発生するか。
    - 「絶望する状況」から「はい上がる行動」へ移る契機があるか。
    - クライマックスの結果が「終わりの状態」に反映されているか。
-7. 完成した内容を `<git root>\plot\chapter-plot\plot-<chapter>.md` に入力する。
+7. 完成した内容を `<git root>\plot\chapter-plot\plot-overview-<chapter>.md` に入力する。
 8. 作成したプロット内で新しく確定した設定を抽出する。
 9. `index.md` と既存の設定ファイル構成を確認し、それぞれ最も適切な設定ファイルへ追記する。
 10. 更新後、プロットと設定ファイルの内容に矛盾がないことを確認する。
 
 # chapter プロットの形式
 
-`<git root>\plot\chapter-plot\plot-<chapter>.md` には、原則として次の形式で記述する。
+`<git root>\plot\chapter-plot\plot-overview-<chapter>.md` には、原則として次の形式で記述する。
 
 ```markdown
 # Chapter <chapter>
