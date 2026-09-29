@@ -50,7 +50,7 @@
 - `<work root>\plot\<chapter>\plot-b-<chapter>.md`:           プロット b。章全体をエピソードへ分割した中間プロット
 - `<work root>\plot\<chapter>\plot-c-<chapter>-<episode>.md`: プロット c。各エピソードの詳細プロット
 - `<work root>\text\<chapter>\text-<chapter>-<episode>.txt`:  各エピソードの本文
-- `<work root>\text\<chapter>\cover.md`:                      タイトル、キャッチコピー、あらすじ
+- `<work root>\settings\cover.md`:                            タイトル、キャッチコピー、あらすじ
 
 目的：対象章の内容を適切に伝えるタイトル、キャッチコピー、あらすじを一組作成する。
 
@@ -79,4 +79,4 @@
 
 # 設定の記録
 
-- `<work root>\settings\cover-<chapter>.md` に、タイトル、キャッチコピー、あらすじを記録する。
+- `<work root>\settings\cover.md` に、タイトル、キャッチコピー、あらすじを記録する。

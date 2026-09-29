@@ -50,7 +50,7 @@
 - `<work root>\plot\<chapter>\plot-b-<chapter>.md`:           プロット b。章全体をエピソードへ分割した中間プロット
 - `<work root>\plot\<chapter>\plot-c-<chapter>-<episode>.md`: プロット c。各エピソードの詳細プロット
 - `<work root>\text\<chapter>\text-<chapter>-<episode>.txt`:  各エピソードの本文
-- `<work root>\text\<chapter>\cover.md`:                      タイトル、キャッチコピー、あらすじ
+- `<work root>\settings\cover.md`:                            タイトル、キャッチコピー、あらすじ
 
 次のファイルを参照し、作品および今回の章を実現するのに必要十分な世界設定を創作・整理する。
 

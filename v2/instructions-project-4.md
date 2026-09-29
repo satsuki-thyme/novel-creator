@@ -50,7 +50,7 @@
 - `<work root>\plot\<chapter>\plot-b-<chapter>.md`:           プロット b。章全体をエピソードへ分割した中間プロット
 - `<work root>\plot\<chapter>\plot-c-<chapter>-<episode>.md`: プロット c。各エピソードの詳細プロット
 - `<work root>\text\<chapter>\text-<chapter>-<episode>.txt`:  各エピソードの本文
-- `<work root>\text\<chapter>\cover.md`:                      タイトル、キャッチコピー、あらすじ
+- `<work root>\settings\cover.md`:                            タイトル、キャッチコピー、あらすじ
 
 目的：章全体の骨格と最重要ポイントを設計する。
 
