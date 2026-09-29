@@ -52,7 +52,7 @@
 - `<work root>\text\<chapter>\text-<chapter>-<episode>.txt`:  各エピソードの本文
 - `<work root>\text\<chapter>\cover.md`:                      タイトル、キャッチコピー、あらすじ
 
-目的：plot-b の対象エピソードを、本文執筆に十分な詳細度まで具体化する。
+目的：plot-b の対象エピソードを、本文執筆に十分な詳細度まで具体化し、`plot-c-<chapter>-<episode>.md` に各 `<episode>` の内容を記録する。
 
 次のファイルを参照し、対象 `<episode>` の記述内容を実現するのに必要十分なエピソードプロットを創作する。
 
