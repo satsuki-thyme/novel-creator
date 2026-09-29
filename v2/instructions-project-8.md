@@ -79,4 +79,4 @@
 
 # 設定の記録
 
-- `<work root>\text\<chapter>\cover.md` に、タイトル、キャッチコピー、あらすじを記録する。
+- `<work root>\settings\<chapter>\cover-<chapter>.md` に、タイトル、キャッチコピー、あらすじを記録する。
