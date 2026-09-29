@@ -65,7 +65,7 @@
 
 # フォルダ構造・ファイルの役割
 
-- `<work root>\settings\config.md`:                           作品全体のテーマ、コンセプト、ログライン、ジャンル、および章ごとの制作条件
+- `<work root>\settings\config-<chapter>.md`:                           作品全体のテーマ、コンセプト、ログライン、ジャンル、および章ごとの制作条件
 - `<work root>\settings\characters.md`:                       キャラクター設定
 - `<work root>\settings\world-building.md`:                   世界設定
 - `<work root>\settings\things.md`:                           物事全般の設定
@@ -107,14 +107,14 @@
 # ChatGPTによる設定
 
 - エピソードあたりの目安文字数を、`章全体の目標文字数 ÷ エピソードの数量` で求める。
-- `<work root>\settings\config.md` に作品全体の設定がまだ存在しない場合は、ユーザーのアイデアを実現するのに適したテーマ、コンセプト、ログラインを創作する。
+- `<work root>\settings\config-<chapter>.md` に作品全体の設定がまだ存在しない場合は、ユーザーのアイデアを実現するのに適したテーマ、コンセプト、ログラインを創作する。
 - 作品全体のテーマ、コンセプト、ログラインがすでに存在する場合は、ユーザーから変更の明示がない限り維持する。
 - 既存作品の新しい章を設定する場合、今回の「元になるアイデア」はその章の着想・目的・題材として記録し、作品全体のテーマ、コンセプト、ログラインと整合させる。
 - ジャンルは作品全体の既存設定があれば原則として維持し、ユーザーが今回明示的に変更した場合だけ更新する。
 
 # 設定の記録
 
-`<work root>\settings\config.md` に、必要に応じて次を整理して記録する。
+`<work root>\settings\config-<chapter>.md` に、必要に応じて次を整理して記録する。
 
 - 作品全体
   - テーマ
@@ -145,7 +145,7 @@
 ``` markdown
 次のファイルを参照し、作品および今回の章を実現するのに必要十分な世界設定を創作・整理する。
 
-- `<work root>\settings\config.md`
+- `<work root>\settings\config-<chapter>.md`
 
 既存の設定ファイルがある場合は、その内容を前提として必要な追加・修正だけを行う。
 
@@ -179,7 +179,7 @@
 ``` markdown
 次のファイルを参照し、作品および今回の章を実現するのに必要十分なキャラクターを創作・整理する。
 
-- `<work root>\settings\config.md`
+- `<work root>\settings\config-<chapter>.md`
 - `<work root>\settings\world-building.md`
 - `<work root>\settings\things.md`
 - `<work root>\settings\place.md`
@@ -234,7 +234,7 @@
 
 次のファイルを参照し、記述内容を実現するのに必要十分な基礎プロットを創作する。
 
-- `<work root>\settings\config.md`
+- `<work root>\settings\config-<chapter>.md`
 - `<work root>\settings\world-building.md`
 - `<work root>\settings\characters.md`
 - `<work root>\settings\things.md`
@@ -281,7 +281,7 @@
 
 次のファイルを参照し、記述内容を実現するのに必要十分な中間プロットを創作する。
 
-- `<work root>\settings\config.md`
+- `<work root>\settings\config-<chapter>.md`
 - `<work root>\settings\world-building.md`
 - `<work root>\settings\characters.md`
 - `<work root>\settings\things.md`
@@ -312,7 +312,7 @@
 
 # エピソード分割
 
-- `<work root>\settings\config.md` に記録された章 `<chapter>` の「エピソードの数量」に従い、エピソード 1 から順に章全体を分割する。
+- `<work root>\settings\config-<chapter>.md` に記録された章 `<chapter>` の「エピソードの数量」に従い、エピソード 1 から順に章全体を分割する。
 - 各エピソードについて、少なくとも次を明確にする。
   - そのエピソードで主人公または中心人物が求めるもの
   - 主な出来事
@@ -372,7 +372,7 @@
 
 次のファイルを参照し、対象 `<episode>` の記述内容を実現するのに必要十分なエピソードプロットを創作する。
 
-- `<work root>\settings\config.md`
+- `<work root>\settings\config-<chapter>.md`
 - `<work root>\settings\world-building.md`
 - `<work root>\settings\characters.md`
 - `<work root>\settings\things.md`
@@ -393,12 +393,12 @@
 - エピソード内のクライマックスに向けて緊張や問題を段階的に強める。
 - エピソード内のクライマックスには、それ以前の場面で必要な伏線を張る。
 - エピソードの終わりには、次を読みたくなるフックを配置する。
-- `<work root>\settings\config.md` に記録されたエピソードあたりの目安文字数で本文化できる密度にする。
+- `<work root>\settings\config-<chapter>.md` に記録されたエピソードあたりの目安文字数で本文化できる密度にする。
 - 場面を増やすこと自体を目的にせず、各場面に物語上の役割を持たせる。
 
 # 設定の記録
 
-- `<work root>\plot\<chapter>\plot-c-<chapter>-<episode>.md` に設定内容を記録する。
+- `<work root>\plot\<chapter>\plot-c-<chapter>-<episode>.md` に本文執筆に十分な詳細度まで具体化し、`plot-c-<chapter>-<episode>.md` に各 `<episode>` の内容を記録する。
 - 世界設定に追加・変更が必要な場合には `<work root>\settings\world-building.md` を更新する。
 - キャラクター設定に追加・変更が必要な場合には `<work root>\settings\characters.md` を更新する。
 - 物事全般の設定に追加・変更が必要な場合には `<work root>\settings\things.md` を更新する。
@@ -423,7 +423,7 @@
 
 次のファイルを参照し、対象 `<episode>` の記述内容を実現するのに必要十分かつ要綱を踏まえた本文を創作する。
 
-- `<work root>\settings\config.md`
+- `<work root>\settings\config-<chapter>.md`
 - `<work root>\settings\world-building.md`
 - `<work root>\settings\characters.md`
 - `<work root>\settings\things.md`
@@ -496,13 +496,13 @@
 
 # 文字数と改行
 
-- `<work root>\settings\config.md` に記録された対象エピソードの目安文字数を基準にする。
+- `<work root>\settings\config-<chapter>.md` に記録された対象エピソードの目安文字数を基準にする。
 - 展開を不自然に引き延ばしたり削ったりしてまで文字数を合わせない。
-- `<work root>\settings\config.md` に記録された本文の改行方式を適用する。
+- `<work root>\settings\config-<chapter>.md` に記録された本文の改行方式を適用する。
 
 # 本文の記録
 
-- `<work root>\text\<chapter>\text-<chapter>-<episode>.txt` に完成した対象エピソードを記録する。
+- `<work root>\text\<chapter>\text-<chapter>-<episode>.txt` に完成した各 `<episode>` の内容を記録する。
 
 # 設定の記録
 
@@ -529,7 +529,7 @@
 
 次のファイルを参照する。
 
-- `<work root>\settings\config.md`
+- `<work root>\settings\config-<chapter>.md`
 - `<work root>\settings\characters.md`
 - `<work root>\plot\<chapter>\plot-a-<chapter>.md`
 - `<work root>\plot\<chapter>\plot-b-<chapter>.md`
@@ -552,5 +552,5 @@
 
 # 設定の記録
 
-- `<work root>\text\<chapter>\cover.md` に、タイトル、キャッチコピー、あらすじを記録する。
+- `<work root>\settings\cover-<chapter>.md` に、タイトル、キャッチコピー、あらすじを記録する。
 ```
