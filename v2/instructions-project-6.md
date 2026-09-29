@@ -82,7 +82,7 @@
 
 # 設定の記録
 
-- `<work root>\plot\<chapter>\plot-c-<chapter>-<episode>.md` に設定内容を記録する。
+- `plot-c-<chapter>-<episode>.md` （ `<episode>` は 1 から最大の `<episode>` の番号まで）に各 `<episode>` の内容を記録する。
 - 世界設定に追加・変更が必要な場合には `<work root>\settings\world-building.md` を更新する。
 - キャラクター設定に追加・変更が必要な場合には `<work root>\settings\characters.md` を更新する。
 - 物事全般の設定に追加・変更が必要な場合には `<work root>\settings\things.md` を更新する。

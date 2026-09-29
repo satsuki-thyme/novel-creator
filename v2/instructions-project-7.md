@@ -131,7 +131,7 @@
 
 # 本文の記録
 
-- `<work root>\text\<chapter>\text-<chapter>-<episode>.txt` に完成した各 `<episode>` の内容を記録する。
+- `<work root>\text\<chapter>\text-<chapter>-<episode>.txt` （ `<episode>` は 1 から最大の `<episode>` の番号まで）に完成した各 `<episode>` の内容を記録する。
 
 # 設定の記録
 

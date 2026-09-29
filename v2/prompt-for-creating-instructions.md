@@ -398,7 +398,7 @@
 
 # 設定の記録
 
-- `<work root>\plot\<chapter>\plot-c-<chapter>-<episode>.md` に本文執筆に十分な詳細度まで具体化し、`plot-c-<chapter>-<episode>.md` に各 `<episode>` の内容を記録する。
+- `plot-c-<chapter>-<episode>.md` （ `<episode>` は 1 から最大の `<episode>` の番号まで）に各 `<episode>` の内容を記録する。
 - 世界設定に追加・変更が必要な場合には `<work root>\settings\world-building.md` を更新する。
 - キャラクター設定に追加・変更が必要な場合には `<work root>\settings\characters.md` を更新する。
 - 物事全般の設定に追加・変更が必要な場合には `<work root>\settings\things.md` を更新する。
@@ -498,7 +498,7 @@
 
 # 本文の記録
 
-- `<work root>\text\<chapter>\text-<chapter>-<episode>.txt` に完成した各 `<episode>` の内容を記録する。
+- `<work root>\text\<chapter>\text-<chapter>-<episode>.txt` （ `<episode>` は 1 から最大の `<episode>` の番号まで）に完成した各 `<episode>` の内容を記録する。
 
 # 設定の記録
 
